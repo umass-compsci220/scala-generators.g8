@@ -1,6 +1,6 @@
 import hw.streams.Generator
 
-object Main extends hw.streams.Solution { // do not change this line
+object Main extends hw.streams.SolutionLike { // do not change this line
 
   // This helper function is very useful
   def cons[A](head: A, tail: =>Generator[A]): Generator[A] = new Generator[A] {
